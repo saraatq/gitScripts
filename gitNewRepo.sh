@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+echo project directory:
+read dir
+cd $dir
+
 echo repolink:
 read repolink
 echo reponame:
